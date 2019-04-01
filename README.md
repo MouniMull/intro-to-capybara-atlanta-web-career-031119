@@ -372,7 +372,7 @@ that matches the following selector?" Pretty amazing, right?
 
 The second expectation is similar: `expect(page).to have_field(:user_name)`.
 We're saying that we expect the `page` to have a form field called `user_name`.
-We get to be even more semantic with the `have_field` matcher, making sure that
+We get to be even more semantic with the `have_fi eld` matcher, making sure that
 the HTML in `page` contains a form input with either an `ID` or `name` attribute
 that matches the argument, in this case `:user_name`.
 
@@ -598,4 +598,3 @@ We learned about:
 Great job!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/intro-to-capybara'>Intro to Capybara Tests</a> on Learn.co and start learning to code for free.</p>
-
